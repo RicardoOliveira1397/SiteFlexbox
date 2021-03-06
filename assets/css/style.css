@@ -1,3 +1,6 @@
+* {
+    font-family:Arial;
+}
 body{
     margin:0;
     padding:0;
@@ -29,8 +32,8 @@ header{
 nav ul,
 nav li {
     list-style:none;
-    margin:0;
     padding:0;
+    margin-left: 10px;
 }
 
 nav ul {
@@ -43,7 +46,6 @@ nav a{
     text-decoration:none;
     text-transform:uppercase;
     color:#727272;
-    font-family:Arial;
 }
 
 nav .active a,
@@ -91,6 +93,55 @@ nav a:hover{
     margin-top:30px;
 }
 
-.banner_options h2{
+.banner_options{
+    display:flex;
     height:210px;
+}
+
+.banner1,
+.banner2,
+.banner3{
+    flex:1;
+    color:#FFFFFF;
+    padding:20px;
+}
+
+.banner1{
+    background-color:#39aae1;
+}
+
+.banner2{
+    background-color:#0079c7;
+}
+
+.banner3{
+    background-color:#2b4c99;
+}
+
+.banner_title{
+    font-size:21px;
+}
+
+.banner_desc{
+    font-size:12px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.banner_options a{
+    display:inline-block;
+    border:1px solid #FFF;
+    padding:5px;
+    color:#fff;
+    font-size:12px;
+    text-decoration:none;
+}
+
+.banner_hours{
+    display:flex;
+    justify-content:space-between;
+    padding-bottom:10px;
+    padding-top:20px;
+    border-bottom: 1px dotted #FFF;
+    font-size: 12px;
 }
