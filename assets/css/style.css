@@ -145,3 +145,143 @@ nav a:hover{
     border-bottom: 1px dotted #FFF;
     font-size: 12px;
 }
+
+#geral {
+    display:flex;
+    justify-content:center;
+}
+
+#geral section {
+    flex:2;
+}
+#geral aside{
+    flex:1;
+}
+
+.widget_title{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+.widget_title_text{
+    color:#000;
+    font-size:21px;
+    font-weight: bold;
+}
+.widget_title_bar{
+    width:50px;
+    height:2px;
+    background-color:#36a9e1;
+    margin-top:10px;
+}
+
+.departments{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+}
+.departments div{
+    width:130px;
+    height:130px;
+    background-color:#36a9e1;
+    text-align: center;
+    line-height:140px;
+    margin: 0px 20px 20px 0px;
+}
+
+.teste{
+    margin-bottom:-20px;
+}
+
+.appointment_text{
+    font-size:12px;
+}
+
+.info{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:10px;
+    margin-bottom:10px;
+    align-items: center;
+    font-size:12px;
+}
+
+.info img{
+    margin-right:10px;
+}
+
+.info strong,
+.info a{
+    margin-left:1px;
+}
+
+.info a {
+    color:#0079c7;
+}
+
+.flex {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+article {
+    flex:1;
+    min-width:300px;
+    margin-right:20px;
+}
+article a{
+    text-decoration:none;
+}
+
+article .news_data{
+    display:flex;
+}
+
+article .news_posted_at{
+    background-color:#2b4c99;
+    color:#FFF;
+    font-size:12px;
+    padding:10px;
+    margin-right:2px;
+}
+
+article .news_posted_at::after{
+    content:'';
+    display:block;
+    position:absolute;
+    margin-left:-10px;
+
+    border:8px solid;
+    border-color:transparent  transparent transparent #2b4c99;
+}
+
+article .news_comments{
+    background-color:#39aae1;
+    color:#FFF;
+    font-size:12px;
+    padding:10px;
+    height:14px;
+}
+
+article .news_thumbnail{
+    margin-top:30px;
+}
+
+article .news_thumbnail img {
+    width:100%;
+    height:auto;
+}
+
+article .news_title{
+    margin-top:25px;
+    margin-bottom:25px;
+    font-size:23px;
+    color:#000;
+}
+
+article .news_resumo{
+    color:#5c5c5c;
+    font-size:14px;
+    line-height:19px;
+    margin-bottom:30px;
+    text-align:justify;
+}
