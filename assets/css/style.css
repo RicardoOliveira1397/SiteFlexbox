@@ -324,7 +324,7 @@ footer .menu {
     display:flex;
 }
 
-.footer_areitem{
+.footer_areaitem{
     flex:1;
     color:#FFF;
 }
@@ -369,17 +369,48 @@ footer .widget_title_text{
     display:flex;
     flex-direction:column;
 }
-.footer_aligntext{
-    margin-left:105px;
-}
-.footer_aligntext2{
-    margin-left:139px;
-}
-.footer_aligntext3{
-    margin-left:95px;
-}
 .color_white{
     color:#FFF;
+}
+.medicenter_contact{
+    display:flex;
+    flex-wrap:wrap;
+    max-width:290px;
+    justify-content:space-between;
+}
+
+.flex_nowrap{
+    display:flex;
+    flex-wrap:nowrap;
+}
+.arrow a{
+    text-decoration:none;
+    color:#FFF;
+    font-size:12px;
+    margin-right:10px;
+}
+.latest_text{
+    font-size:12px;
+    color:#FFF;
+    padding-right:20px;
+}
+.blue_text{
+    font-size:11px;
+    color:#0079c7;
+}
+
+.menuMobile{
+    display:none;
+    width:40px;
+    height:40px;
+    margin-top:40px;
+    margin-bottom:40px;
+    margin-right:20px;
+}
+
+.mm_line{
+    height:3px;
+    background-color:#39aae1;
 }
 
 @media (max-width:600px){
@@ -407,6 +438,46 @@ footer .widget_title_text{
 
     .departments {
         justify-content:center;
+    }
+    .footer_menu{
+        flex-direction:column;
+    }
+    .footer_area{
+        flex-direction:column;
+        padding:20px;
+    }
+    .footer_copy{
+        padding-left:20px;
+    }
+
+    header .container{
+        flex-direction:row;
+    }
+
+    nav ul{
+        flex-direction:column;
+        display:none;
+        position:absolute;
+        left:0;
+        width:100%;
+        background-color:#FFF;
+        margin:0;
+
+    }
+    nav li{
+        margin:0;
+    }
+    header{
+        height:auto;
+    }
+    .logo{
+        padding-left:20px;
+    }
+
+    .menuMobile{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
     }
 }
 
